@@ -32,14 +32,6 @@ header {
   padding: 10px 20px;
 }
 
-.logo {
-  cursor: pointer;
-  margin-right: auto;
-  width: 5%;
-  min-width: 30px;
-  max-width: 50px;
-}
-
 .nav__links {
   list-style: none;
 }
