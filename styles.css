@@ -1,0 +1,77 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+  font-size: 16px;
+  font-size: "Lato", sans-serif;
+  font-weight: 400;
+  line-height: 1.8rem;
+  color: #89abe3ff;
+}
+
+.img1,
+.img2,
+.img3,
+.img4 {
+  position: relative;
+  opacity: 0.7;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  background-attachment: fixed;
+}
+
+.img1 {
+  background-image: url("../images/img1.jpg");
+  min-height: 100%;
+}
+
+.img2 {
+  background-image: url("../images/img2.jpg");
+  min-height: 400px;
+}
+
+.img3 {
+  background-image: url("../images/img3.jpg");
+  min-height: 400px;
+}
+
+.se {
+  text-align: center;
+  padding: 50px 80px;
+}
+
+.sec_one {
+  background-color: #fcf6f5ff;
+}
+
+.sec_two,
+.sec_three {
+  background-color: #89abe3ff;
+  color: #fcf6f5ff;
+}
+
+.ptext {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #fcf6f5ff;
+  font-size: 27px;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+}
+
+.ptext .border {
+  background-color: #89abe3ff;
+}
+
+@media (max-width: 568px) {
+  .img1,
+  .img2,
+  .img3,
+  .img4 {
+    background-attachment: scroll;
+  }
+}
