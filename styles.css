@@ -99,6 +99,10 @@ header {
   color: #fcf6f5ff;
 }
 
+#gs {
+  font-size: 12px;
+}
+
 .ptext {
   position: absolute;
   top: 50%;
