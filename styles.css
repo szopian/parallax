@@ -12,7 +12,7 @@ html {
   font-size: 16px;
   font-weight: 300;
   line-height: 1.8rem;
-  color: #89abe3ff;
+  color: #006994;
   font-family: "Abel", sans-serif;
 }
 
@@ -20,7 +20,7 @@ li,
 a {
   font-weight: 500;
   font-size: 16px;
-  color: #89abe3ff;
+  color: #006994;
   text-decoration: none;
 }
 
@@ -30,6 +30,7 @@ header {
   justify-content: center;
   align-items: center;
   padding: 10px 20px;
+  height: 10vh;
 }
 
 .nav__links {
@@ -95,7 +96,7 @@ header {
 
 .sec_two,
 .sec_three {
-  background-color: #89abe3ff;
+  background-color: #006994;
   color: #fcf6f5ff;
 }
 
@@ -115,7 +116,7 @@ header {
 }
 
 .ptext .border {
-  background-color: #89abe3ff;
+  background-color: #006994;
 }
 
 @media (max-width: 568px) {

@@ -1,3 +1,7 @@
+// INITIALIZE AOS on scroll animation
+AOS.init();
+
+// STICKY NAVBAR
 const navbar = document.querySelector("header");
 
 let addStickyToNavbar = () => {
